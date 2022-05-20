@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_blue"
+    tools:context=".RegisterActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/register_page"
+        android:textColor="@color/Chocolate"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/first_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/first_edit"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_toStartOf="@id/first_edit"
+        android:layout_toLeftOf="@id/first_edit"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/first_name"
+        android:textColor="@color/Chocolate"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/first_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_text"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/First_Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/last_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_name_text"
+        android:layout_alignBaseline="@id/last_edit"
+        android:layout_alignEnd="@id/first_name_text"
+        android:layout_alignRight="@id/first_name_text"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/last_name"
+        android:textColor="@color/Chocolate"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/last_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_edit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/Last_Name"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/last_name_text"
+        android:layout_alignBaseline="@id/user_edit"
+        android:layout_alignEnd="@id/last_name_text"
+        android:layout_alignRight="@id/last_name_text"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/user_name"
+        android:textColor="@color/Chocolate"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/user_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/last_edit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/User_Name"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/email_edit"
+        android:layout_alignEnd="@id/user_text"
+        android:layout_alignRight="@id/user_text"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/name_email"
+        android:textColor="@color/Chocolate"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/email_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_edit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/Enter_Email"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/password_edit"
+        android:layout_alignEnd="@id/email_text"
+        android:layout_alignRight="@id/email_text"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/pass_name"
+        android:textColor="@color/Chocolate"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_edit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="text|textPassword"
+        android:gravity="center_horizontal"
+        android:hint="@string/password_enter"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pass_reenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/password2_edit"
+        android:layout_alignEnd="@id/password_text"
+        android:layout_alignRight="@id/password_text"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/pass_name"
+        android:textColor="@color/Chocolate"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password2_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_edit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="text|textPassword"
+        android:gravity="center_horizontal"
+        android:hint="@string/password_reenter"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password2_edit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_login"
+        android:ems="10"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="register_text" type="id" />
+    <item name="first_name_text" type="id" />
+    <item name="first_edit" type="id" />
+    <item name="RouteButton" type="id" />
+    <item name="InformationButton" type="id" />
+    <item name="HelpButton" type="id" />
+    <item name="logo" type="id" />
+    <item name="constLayout" type="id" />
+    <item name="ListButton" type="id" />
+    <item name="signOutButton" type="id" />
+    <item name="uploadPhotoButton" type="id" />
+</resources>

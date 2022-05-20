@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47974101555",
+    "project_id": "cs-440-app-database",
+    "storage_bucket": "cs-440-app-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47974101555:android:1515040c4bdf6101276946",
+        "android_client_info": {
+          "package_name": "com.example.lonewolf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47974101555-kuiichgrovk8tgpt0vpubbn6rgvem6bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJDdzW-uOzSigai3GZu_5PywGy5d7WqOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47974101555-kuiichgrovk8tgpt0vpubbn6rgvem6bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

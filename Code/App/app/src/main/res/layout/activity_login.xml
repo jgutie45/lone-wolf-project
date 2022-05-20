@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_blue"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="175sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/logo_for_app" />
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/login_page"
+        android:textColor="@color/Chocolate"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/email_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/password_name"
+        android:layout_alignBaseline="@id/emailEdit"
+        android:layout_alignEnd="@id/password_name"
+        android:layout_alignRight="@id/password_name"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/name_email"
+        android:textColor="@color/Chocolate"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/emailEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="45dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawableLeft="@drawable/ic_email"
+        android:ems="10"
+        android:hint="@string/Enter_Email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColorHighlight="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/password_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/passwordEdit"
+        android:layout_toLeftOf="@id/passwordEdit"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/name_password"
+        android:textColor="@color/Chocolate"
+        android:textSize="18sp"
+        android:layout_toStartOf="@id/passwordEdit" />
+
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEdit"
+        android:layout_alignEnd="@id/emailEdit"
+        android:layout_marginTop="1dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:ems="10"
+        android:hint="@string/Enter_Password"
+        android:importantForAutofill="yes"
+        android:layout_alignRight="@id/emailEdit"
+        android:drawableStart="@drawable/ic_lock"
+        android:inputType="text|textPassword" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEdit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login"
+        android:text="@string/login_page"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium" />
+
+
+    <TextView
+        android:id="@+id/forget_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/forget_password"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/new_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forget_pw"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/register_link"
+        android:textColorHighlight="@color/dark_green_blue" />
+
+
+</RelativeLayout>

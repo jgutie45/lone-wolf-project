@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_blue"
+    tools:context=".activity_json_list">
+
+    <Button
+        android:id="@+id/btn_getParkID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Park ID"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_getLangLongByParkID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Distance"
+        app:layout_constraintEnd_toStartOf="@+id/btn_getLangLongByParkName"
+        app:layout_constraintStart_toEndOf="@id/btn_getParkID"
+        app:layout_constraintTop_toTopOf="@+id/btn_getParkID" />
+
+    <Button
+        android:id="@+id/btn_getLangLongByParkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Park By Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_getLangLongByParkID"
+        app:layout_constraintTop_toTopOf="@+id/btn_getLangLongByParkID" />
+
+    <EditText
+        android:id="@+id/et_datainput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:hint="Enter A Park Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_getParkID" />
+
+    <ListView
+        android:id="@+id/lv_parkReports"
+        android:layout_width="414dp"
+        android:layout_height="616dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_datainput" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">LoneWolf</string>
+
+    <!-- Login -->
+    <string name="login_page">Login</string>
+    <string name="name_email">Email:</string>
+    <string name="Enter_Email">Enter Email</string>
+    <string name="name_password">Password:</string>
+    <string name="Enter_Password">"Enter Password"</string>
+    <string name="forget_password">"Forgot your password?"</string>
+    <string name="register_link">"New user? Create Account here!"</string>
+    <!-- Login -->
+
+    <!-- Register Page -->
+    <string name="register_page">Register</string>
+    <string name="Name">Name</string>
+    <string name="first_name">First Name:</string>
+    <string name="First_Name">Enter your First name</string>
+    <string name="last_name">Last Name:</string>
+    <string name="Last_Name">Enter your Last name</string>
+    <string name="user_name">Username:</string>
+    <string name="User_Name">Enter a Username</string>
+    <string name="pass_name">Password:</string>
+    <string name="password_enter">Enter your Password</string>
+    <string name="pass_reenter">Re-enter:</string>
+    <string name="password_reenter">Confirm your Password</string>
+    <string name="Create_Account">Create new account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="request_help">Request Help</string>
+    <string name="find_route">Find Route</string>
+    <string name="information">Information</string>
+    <string name="lone_wolf">Lone Wolf</string>
+    <string name="encyclopedia">Encyclopedia</string>
+    <string name="logo_for_app">logo for app</string>
+    <!-- Register Page -->
+
+    <!-- Main Page -->
+    <string name="list_button">List</string>
+    <string name="title">Nature API INFO:</string>
+    <string name="set_location">Set Location</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="enter_account_email">Enter Account Email</string>
+    <string name="send_recovery_email">Send Recovery Email</string>
+    <string name="upload_photo">Upload Photo</string>
+    <!-- Main Page -->
+</resources>
